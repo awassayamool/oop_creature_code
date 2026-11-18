@@ -128,7 +128,6 @@ if __name__ == "__main__":
     hawk.attack(dummy)
     print(f"Dummy HP should be 32 → Actual: {dummy.hp}")
     dummy.attack(hawk)
-    print()    print("=== Tests Completed ===")
     print()
 
     print("=== SwimmingCreature Tests ===\n")
